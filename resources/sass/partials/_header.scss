@@ -1,0 +1,33 @@
+@import "partials/variables";
+.selected{
+    color: $dcblue;
+  }
+  nav .selected{
+    border-bottom: 1px solid $dcblue;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $dcwhite;
+    width: $dcwidth;
+    margin: auto;
+    img{
+      width: 60px;
+    }
+  }
+  nav{
+    ul {
+    display: flex;
+    margin-left: 20px;
+    list-style-type: none;
+    gap: 30px;
+    cursor: pointer;
+    padding: 40px;
+    text-transform: uppercase;
+    }
+    li{
+      font-size: $dcsize;
+    }
+  }
+  

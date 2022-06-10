@@ -1,0 +1,32 @@
+.selected {
+  color: #0282f9;
+}
+
+nav .selected {
+  border-bottom: 1px solid #0282f9;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 60%;
+  margin: auto;
+}
+header img {
+  width: 60px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 20px;
+  list-style-type: none;
+  gap: 30px;
+  cursor: pointer;
+  padding: 40px;
+  text-transform: uppercase;
+}
+nav li {
+  font-size: 14px;
+}
