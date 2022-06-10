@@ -1,4 +1,5 @@
-<header>
+  @stack('css')
+  <header>
     <img src="../img/dc-logo.png" alt="">
     <nav>
       <ul>
@@ -13,3 +14,6 @@
       </ul>
     </nav>
   </header>
+  <div>
+    <img src="../img/jumbotron.jpg" alt="" class="jumbo">
+  </div>

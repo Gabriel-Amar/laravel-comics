@@ -1,0 +1,44 @@
+
+
+.bg{
+    background-color: $dcfootcolor;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: $dcwidth;
+    margin: auto;
+    
+}
+nav { 
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 40px;
+        align-items: center;
+
+    li {
+        font-size: $dcsize;
+        color: $dcblue;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    }
+}
+img{
+    width: 20px;
+}
+button{
+    cursor: pointer;
+    color: $dcwhite;
+    text-transform: uppercase;
+    border: 2px solid $dcblue;
+    padding: 10px;
+    background-color: $dcfootcolor;
+}
+img{
+    padding-left: 10px;
+    width: 40px;
+}
