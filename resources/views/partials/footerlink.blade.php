@@ -1,11 +1,16 @@
-<footer>
+<footer class="footer">
     <div class="width">
     <section>
         <h2>DC comics</h2>
         <ul>
-            <li v-for="(item, index) in links1" :key="index">
-                {{item.testo}}
+            <?php
+            $link = config('footerlink1');
+            ?>
+            @foreach ($link as $linko)
+            <li>
+                {{$linko['testo']}}
             </li>
+            @endforeach
         </ul>
         <h2>Shop</h2>
         <ul>
@@ -21,18 +26,28 @@
     <section>
         <h2>DC</h2>
         <ul>
-            <li v-for="(item, index) in links2" :key="index">
-                {{item.testo}}
+            <?php
+            $link = config('footerlink2');
+            ?>
+            @foreach ($link as $linko)
+            <li>
+                {{$linko['testo']}}
             </li>
+            @endforeach
         </ul>
     </section>
 
     <section>
         <h2>Sites</h2>
         <ul>
-            <li v-for="(item, index) in links3" :key="index">
-                {{item.testo}}
+            <?php
+            $link = config('footerlink3');
+            ?>
+            @foreach ($link as $linko)
+            <li>
+                {{$linko['testo']}}
             </li>
+            @endforeach
         </ul>
     </section>
     </div>

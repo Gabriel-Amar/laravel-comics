@@ -15,7 +15,7 @@
 </head>
 <body>
     @include('partials.header')
-
+    @include('partials.footerlink')
     @include('partials.footer')
 
 <script src="js/script.js" ></script>
