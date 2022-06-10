@@ -15,7 +15,11 @@
 </head>
 <body>
     @include('partials.header')
+
+    @yield('mainContent')
+
     @include('partials.footerlink')
+    
     @include('partials.footer')
 
 <script src="js/script.js" ></script>

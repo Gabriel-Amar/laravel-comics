@@ -1,0 +1,50 @@
+.containera{
+    background-color: $dcblanck;
+    display: flex;
+    margin-top: -4px;
+}
+.containera ul li{
+    vertical-align: top;
+    display: inline-block;
+    color: $dcwhite;
+    text-transform: uppercase;
+    font-size: $dcsize;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.widtha{
+    width: $dcwidth;
+    margin: auto;
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 100% 0%;
+}
+span{
+    padding-top: 10px;
+}
+.center3{
+    text-align: center;
+}
+button{
+    color: $dcwhite;
+    background-color: $dcblue;
+    padding: 8px 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    background-color: #0282f9;
+    padding: 10px 20px;
+    margin-top: -5px;
+    position: relative;
+    display: inline;
+    top: -10px;
+}
