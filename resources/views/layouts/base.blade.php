@@ -18,6 +18,8 @@
 
     @yield('mainContent')
 
+    @yield('mainSingle')
+
     @include('partials.footerlink')
     
     @include('partials.footer')

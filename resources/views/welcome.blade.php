@@ -10,10 +10,10 @@
             <?php
             $link = config('main');
             ?>
-            @foreach ($link as $linko)
+            @foreach ($link as $index => $linko)
             <li>
-                <img src="{{$linko["thumb"]}}" alt="" class="img3">
-                <div>{{$linko["series"]}}</div>
+                <a href="{{route('single')}}"><img src="{{$linko["thumb"]}}" alt="" class="img3">
+                <div>{{$linko["series"]}}</div></a>
             </li>
             @endforeach
         </ul>
